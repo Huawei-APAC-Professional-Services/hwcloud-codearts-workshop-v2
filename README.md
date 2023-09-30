@@ -63,5 +63,5 @@ flowchart LR
 
     05_CD_Pipeline --> 06_Blue_Green_Deployment[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/06_Blue_Green_Deployment.md'>06_Blue_Green_Deployment</a>]
 
-    06_Blue_Green_Deployment --> 07_CodeArts_Challenge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/07_Version_Control_Rollback.md'>07_CodeArts_Challenge</a>]
+    06_Blue_Green_Deployment --> 07_CodeArts_Challenge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/07_CodeArts_Challenge.md'>07_CodeArts_Challenge</a>]
 ```

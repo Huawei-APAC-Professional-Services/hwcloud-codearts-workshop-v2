@@ -203,3 +203,5 @@ This section guides you on configuring the second CodeArts pipeline for another 
 5. At this stage, all the network traffic should goes to the green deployment. In case there is failure in green deployment, you can easily switch back the service to the blue deployment by using the commad as below.
 
     ```$ kubectl -n ns-devops patch service prod-srv -p '{"spec":{"selector":{"app": "php-fpm-nginx"}}}'```
+
+**At this stage, you have completed all the exercises that being designed for this lab!**
