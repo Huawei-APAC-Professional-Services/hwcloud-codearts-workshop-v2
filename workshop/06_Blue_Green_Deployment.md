@@ -23,7 +23,7 @@ In an existing SIT and production environments, you already have the history ver
 
     ```
 
-2. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md)
+2. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
 
     ```$ git add --all``` <br>
     ```$ git commit -am "release blue version``` <br>
@@ -106,7 +106,7 @@ This section guides you on configuring the second CodeArts pipeline for another 
     }
 
     ```
-    b. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md)
+    b. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
 
     ```$ git add --all``` <br>
     ```$ git commit -am "release green version``` <br>

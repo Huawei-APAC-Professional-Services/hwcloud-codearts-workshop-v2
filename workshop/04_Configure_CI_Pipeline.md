@@ -128,7 +128,7 @@ This section guides you on testing the CI pipeline by commit changes to the Code
 
     ```
 
-2. Execute the Git command below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md)
+2. Execute the Git command below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
 
     ```$ git add --all``` <br>
     ```$ git commit -am "release red version``` <br>
