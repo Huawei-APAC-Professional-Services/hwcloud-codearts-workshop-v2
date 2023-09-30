@@ -12,7 +12,7 @@ This section will guide you step by step to set up the project and repository in
 
 2. Import the source code template from a **public repository provided to the CodeArts Repo**. Navigate to the CodeArts Repo management console and import the repository by specifying the source repository URL as below. You may modify the repository name to be stored under your project repo.
 
-    **GitHub Repo**: ```https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop.git```
+    **GitHub Repo**: ```https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2.git```
 
     *<p align="center"> ![figure3.1](./images/3.1.png) </p>*
     *<p align="center"> Figure 3.1: Import Source Code Template into CodeArts Repo </p>*
@@ -43,7 +43,7 @@ This section will guide you step by step to set up the project and repository in
    ```$ git push``` <br>
    Enter the credentials as prompted.
 
-   d. To avoid having to frequently enter the username and password, you can use the certificate storage function of Git for password-free operation. Follow the instructions in the management console page to store the Git credentials.
+   You are required to key in the Git credentials for every code commit.
 
 ### Create Software Repository Warehouse (SWR) Organization
 
