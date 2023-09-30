@@ -125,22 +125,6 @@ This section guides you on testing the CI pipeline by commit changes to the Code
 
         ...
     }
-    .highlight-box {
-        /* Red */
-        background-color: rgba(255, 176, 176, 0.8);
-
-        ...
-    }
-    footer {
-        /* Red */
-        background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));
-    }
-    .shaded-section h2 {
-        /* Red */
-        color: #db3434;
-
-        ...
-    }
 
     ```
 

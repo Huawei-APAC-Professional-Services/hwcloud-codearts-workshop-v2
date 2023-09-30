@@ -14,10 +14,10 @@
         
         header {
             /* Red */
-            /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967)); */
+            background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));
 
             /* Blue */
-            background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
+            /* background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967)); */
 
             /* Green */
             /* background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46)); */
@@ -66,23 +66,7 @@
         }
 
         .highlight-box {
-            /* Red */
-            /* background-color: rgba(255, 176, 176, 0.8); */
-
-            /* Blue */
-            /* background-color: rgba(192, 218, 236, 0.8); */
-
-            /* Green */
-            /* background-color: rgba(205, 246, 175, 0.8); */
-
-            /* Orange */
-            /* background-color: rgba(255, 215, 176, 0.8); */
-
-            /* Purple */
-            /* background-color: rgba(217, 188, 251, 0.8); */
-
-            /* Pink */
-            /* background-color: rgba(251, 188, 238, 0.8); */
+            background-color: rgb(80, 78, 78);
 
             color: white;
             padding: 1.0em;
@@ -91,29 +75,13 @@
         }
 
         .colorful-text {
-            color: #3c4345;
+            color: #f3f3f3;
             font-size: 1.5em;
             text-align: center;
         }
 
         footer {
-            /* Red */
-            /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967)); */
-
-            /* Blue */
-            background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
-
-            /* Green */
-            /* background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46)); */
-
-            /* Orange */
-            /* background: linear-gradient(135deg, rgba(255, 215, 176, 0.8), rgba(255, 128, 0, 0.967)); */
-
-            /* Purple */
-            /* background: linear-gradient(135deg, rgba(217, 188, 251, 0.8), rgba(110, 1, 183, 0.967)); */
-
-            /* Pink */
-            /* background: linear-gradient(135deg, rgba(253, 190, 232, 0.8), rgba(255, 0, 195, 0.967)); */
+            background: linear-gradient(135deg, rgb(255, 255, 255), rgba(55, 55, 55, 0.967));
 
             color: rgb(8, 8, 8);
             text-align: center;
@@ -122,34 +90,18 @@
 
         .quote {
             font-style: italic;
-            color: #556061;
+            color: #0b0b0b;
         }
 
         .shaded-section {
-            background-color: #f6f6f6;
+            background-color: #e6e6e6;
             padding: 2em;
             border-radius: 8px;
             margin-bottom: 2em;
         }
 
         .shaded-section h2 {
-            /* Red */
-            /* color: #db3434; */
-
-            /* Blue */
-            color: #3498db;
-
-            /* Green */
-            /* color: #03ca35; */
-
-            /* Orange */
-            /* color: #db7734; */
-
-            /* Purple */
-            /* color: #7d03ef; */
-
-            /* Pink */
-            /* color: #ff01d9; */
+            color: #0f0f0f; 
         }
 
         .shaded-section p {

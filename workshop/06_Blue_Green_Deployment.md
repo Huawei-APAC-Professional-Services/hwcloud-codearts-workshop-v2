@@ -13,25 +13,11 @@ In an existing SIT and production environments, you already have the history ver
 
     ```
     header {
+        /* Red */
+        /*background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));*/
+
         /* Blue */
         background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
-
-        ...
-    }
-    .highlight-box {
-        /* Blue */
-        background-color: rgba(192, 218, 236, 0.8);
-
-        ...
-    }
-    footer {
-        /* Blue */
-        background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
-    }
-    .shaded-section h2 {
-        /* Blue */
-        color: #3498db;
-
         ...
     }
 
@@ -108,25 +94,14 @@ This section guides you on configuring the second CodeArts pipeline for another 
     a. Firstly, you are require to modify the source code to release a new version of **web application with green color background** and trigger the SIT pipeline. From your local machine, navigate to your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **green color background**, uncomment the line that marked as green color code. <br>
     ```
     header {
+        /* Red */
+        /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));*/
+
+        /* Blue */
+        /* background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967)); */
+
         /* Green */
         background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46));
-
-        ...
-    }
-    .highlight-box {
-        /* Green */
-        background-color: rgba(205, 246, 175, 0.8);
-
-        ...
-    }
-    footer {
-        /* Green */
-        background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46));
-    }
-    .shaded-section h2 {
-        /* Green */
-        color: #03ca35;
-
         ...
     }
 
