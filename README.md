@@ -16,9 +16,9 @@ Throughout this lab manual, we will take you on a journey of configuring the bas
 ### Learning Outcomes
 
 By the end of the lab, we are able to achieve as below:
-* **Configure the CI and CD pipeline using the CodeArts services such as Repo, Check, Build, Deploy, pipeline and etc.**
+* **Configure the CI pipeline using the CodeArts services such as Repo, Check, Build, Deploy, pipeline and etc.**
+* **Configure the CD pipeline using the CodeArts services such as Repo, Build, Deploy, pipeline and etc.**
 * **Configure the CD pipeline to achieve a blue-green deployment strategy in the production environment**
-* **Configure image version tagging to achieve the version control rollback for the production environment**
 
 ### Target Audience
 
@@ -63,5 +63,5 @@ flowchart LR
 
     05_CD_Pipeline --> 06_Blue_Green_Deployment[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/06_Blue_Green_Deployment.md'>06_Blue_Green_Deployment</a>]
 
-    06_Blue_Green_Deployment --> 07_Version_Rollback[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/07_Version_Control_Rollback.md'>07_Version_Rollback</a>]
+    06_Blue_Green_Deployment --> 07_CodeArts_Challenge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/07_Version_Control_Rollback.md'>07_CodeArts_Challenge</a>]
 ```
