@@ -170,27 +170,26 @@ This section guides you on configuring the second CodeArts pipeline for another 
 
 ### Patch the network service from blue deployment to green deployment
 
-At this stage, you have completed the green deployment on production environment. The existing load balancer is pointing to the **blue deployment with version tagged v1.1**. Let's say your green deployment have achieve some stability and you wish to **switch all the traffic from blue deployment to green deployment**, you can use the ```kubectl patch service``` command to switch all the traffic from blue to green deployment.
+At this stage, you have completed the green deployment on production environment. The existing load balancer is pointing to the **blue deployment with version tagged v1.1**. Let's say your green deployment have achieve some stability and you wish to **switch all the traffic from blue deployment to green deployment**, you can use the ```kubectl patch service``` command to switch all the traffic from blue to green deployment. Verify the load balancer is bind to the blue deployment.
+
+*<p align="center"> ![figure7.23](./images/7.23.png) </p>*
+*<p align="center"> Figure 7.23: Load balancer bind to the blue deployment</p>*
 
 1. Firstly, you need to configure a CodeArts Deploy task to run the kubectl patch service command. Navigate to the CodeArts Deploy management console and create a new task as below.
 
     a. Select the function name as **Kubernetes Custom Cluster Deployment** and configure the parameter as below.
 
+    **Deployment Task Name**: ```provide-meaningful-name```
     **Kubernetes Service Endpoint**: ```replace-with-your-production-cluster-service-endpoint``` <br>
     **kubectl command**: ```patch``` <br>
     **kubectl Command Parameters**: ```service prod-srv -n ns-devops -p '{"spec":{"selector":{"app": "php-fpm-nginx-green"}}}''``` <br>
     
-    b. Verify the load balancer is bind to the blue deployment.
-
-    *<p align="center"> ![figure7.23](./images/7.23.png) </p>*
-    *<p align="center"> Figure 7.23: Load balancer bind to the blue deployment</p>*
-
-    c. Click the **save and deploy** button to execute the CodeArts Deploy task.
+    b. Click the **save and deploy** button to execute the CodeArts Deploy task.
 
     *<p align="center"> ![figure7.24](./images/7.24.png) </p>*
     *<p align="center"> Figure 7.24: Execute the CodeArts Deploy task</p>*
 
-    d. Verify the result where the load balancer has been switch to the green deployment. You should able to view the **green color webpage** by accessing the EIP adrress of the load balancer.
+    c. Verify the result where the load balancer has been switch to the green deployment. You should able to view the **green color webpage** by accessing the EIP adrress of the load balancer.
 
     *<p align="center"> ![figure7.25](./images/7.25.png) </p>*
     *<p align="center"> Figure 7.25: Load balancer pointed to the green deployment</p>*
