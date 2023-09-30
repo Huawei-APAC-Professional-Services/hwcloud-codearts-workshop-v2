@@ -41,7 +41,10 @@ This section will guide you step by step to set up the project and repository in
    ```$ git add --all``` <br>
    ```$ git commit -am "add test file``` <br>
    ```$ git push``` <br>
-   Enter the credentials as prompted.
+   Enter the credentials as prompted, the username and password is the one that you obtain in previous **Step B**. If you are using Visual Studio Code as your code editor, the prompt window will located on the search bar as the below screenshot.
+   
+   *<p align="center"> ![figure3.5.1](./images/3.5.1.png) </p>*
+   *<p align="center"> Figure 3.5.1: Enter Git Credentials </p>*
 
    You are required to key in the Git credentials for every code commit.
 
