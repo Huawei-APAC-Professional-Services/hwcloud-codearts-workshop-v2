@@ -17,7 +17,7 @@
             /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967)); */
 
             /* Blue */
-            /* background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967)); */
+            background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
 
             /* Green */
             /* background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46)); */
@@ -67,7 +67,7 @@
 
         .highlight-box {
             /* Red */
-            background-color: rgba(255, 176, 176, 0.8);
+            /* background-color: rgba(255, 176, 176, 0.8); */
 
             /* Blue */
             /* background-color: rgba(192, 218, 236, 0.8); */
@@ -98,10 +98,10 @@
 
         footer {
             /* Red */
-            background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));
+            /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967)); */
 
             /* Blue */
-            /* background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967)); */
+            background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967));
 
             /* Green */
             /* background: linear-gradient(135deg, rgba(205, 246, 175, 0.8), rgb(2, 205, 46)); */
@@ -134,10 +134,10 @@
 
         .shaded-section h2 {
             /* Red */
-            color: #db3434;
+            /* color: #db3434; */
 
             /* Blue */
-            /* color: #3498db; */
+            color: #3498db;
 
             /* Green */
             /* color: #03ca35; */
