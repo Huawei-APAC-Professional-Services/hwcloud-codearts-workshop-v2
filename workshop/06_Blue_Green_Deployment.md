@@ -179,7 +179,7 @@ At this stage, you have completed the green deployment on production environment
 
     a. Select the function name as **Kubernetes Custom Cluster Deployment** and configure the parameter as below.
 
-    **Deployment Task Name**: ```provide-meaningful-name```
+    **Deployment Task Name**: ```provide-meaningful-name``` <br>
     **Kubernetes Service Endpoint**: ```replace-with-your-production-cluster-service-endpoint``` <br>
     **kubectl command**: ```patch``` <br>
     **kubectl Command Parameters**: ```service prod-srv -n ns-devops -p '{"spec":{"selector":{"app": "php-fpm-nginx-green"}}}''``` <br>
