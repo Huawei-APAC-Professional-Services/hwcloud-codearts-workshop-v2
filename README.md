@@ -49,19 +49,19 @@ Please follow the sequence below if you wish to perform the hands-on learning wi
 
 ```mermaid
 flowchart LR
-    00_Fundamental_Knowledge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/00_Fundamental_Knowledge.md'>00_Fundamental_Knowledge</a>]
+    00_Fundamental_Knowledge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/00_Fundamental_Knowledge.md'>00_Fundamental_Knowledge</a>]
 
-    00_Fundamental_Knowledge --> 01_Solution_Overview[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/01_Solution_Overview.md'>01_Solution_Overview</a>]
+    00_Fundamental_Knowledge --> 01_Solution_Overview[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/01_Solution_Overview.md'>01_Solution_Overview</a>]
 
-    01_Solution_Overview --> 02_Getting_Started[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/02_Getting_Started.md'>02_Getting_Started</a>]
+    01_Solution_Overview --> 02_Getting_Started[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md'>02_Getting_Started</a>]
 
-    02_Getting_Started --> 03_Build_Task[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/03_Configure_Build_Task.md'>03_Build_Task</a>]
+    02_Getting_Started --> 03_Build_Task[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/03_Configure_Build_Task.md'>03_Build_Task</a>]
 
-    03_Build_Task --> 04_CI_Pipeline[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/04_Configure_CI_Pipeline.md'>04_CI_Pipeline</a>]
+    03_Build_Task --> 04_CI_Pipeline[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/04_Configure_CI_Pipeline.md'>04_CI_Pipeline</a>]
 
-    04_CI_Pipeline --> 05_CD_Pipeline[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/05_Configure_CD_Pipeline.md'>05_CD_Pipeline</a>]
+    04_CI_Pipeline --> 05_CD_Pipeline[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/05_Configure_CD_Pipeline.md'>05_CD_Pipeline</a>]
 
-    05_CD_Pipeline --> 06_Blue_Green_Deployment[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/06_Blue_Green_Deployment.md'>06_Blue_Green_Deployment</a>]
+    05_CD_Pipeline --> 06_Blue_Green_Deployment[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/06_Blue_Green_Deployment.md'>06_Blue_Green_Deployment</a>]
 
-    06_Blue_Green_Deployment --> 07_Version_Rollback[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop/blob/main/workshop/07_Version_Control_Rollback.md'>07_Version_Rollback</a>]
+    06_Blue_Green_Deployment --> 07_Version_Rollback[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/07_Version_Control_Rollback.md'>07_Version_Rollback</a>]
 ```
