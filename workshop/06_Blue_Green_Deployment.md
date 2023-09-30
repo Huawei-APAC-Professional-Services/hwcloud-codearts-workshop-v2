@@ -168,7 +168,11 @@ This section guides you on configuring the second CodeArts pipeline for another 
     *<p align="center"> ![figure7.19](./images/7.19.png) </p>*
     *<p align="center"> Figure 7.19: Deployment workload in CCE production cluster</p>*
 
-4. At this stage, you have completed the green deployment on production environment. The existing load balancer is pointing to the **blue deployment with version tagged v1.1**. Let's say your green deployment have achieve some stability and you wish to **switch all the traffic from blue deployment to green deployment**, you can use the ```kubectl patch service``` command to switch all the traffic from blue to green deployment.
+### Patch the network service from blue deployment to green deployment
+
+At this stage, you have completed the green deployment on production environment. The existing load balancer is pointing to the **blue deployment with version tagged v1.1**. Let's say your green deployment have achieve some stability and you wish to **switch all the traffic from blue deployment to green deployment**, you can use the ```kubectl patch service``` command to switch all the traffic from blue to green deployment.
+
+1. To switch the network service from blue to green deployment, follow the instruction as below.
 
     a. To run the ```kubectl``` command, you are require to connect to the production cluster from your local machine. You may follow the instruction below to configure the connection.
     (**Notes**: Ensure that you have completed the prerequisites with **kubectl** tool installed on your local machine)
@@ -203,5 +207,3 @@ This section guides you on configuring the second CodeArts pipeline for another 
 5. At this stage, all the network traffic should goes to the green deployment. In case there is failure in green deployment, you can easily switch back the service to the blue deployment by using the commad as below.
 
     ```$ kubectl -n ns-devops patch service prod-srv -p '{"spec":{"selector":{"app": "php-fpm-nginx"}}}'```
-
-**At this stage, you have completed all the exercises that being designed for this lab!**
