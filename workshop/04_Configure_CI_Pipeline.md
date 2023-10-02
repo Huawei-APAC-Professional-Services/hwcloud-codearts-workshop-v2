@@ -116,7 +116,7 @@ This section will guides you on configuring the Continuous Integration (CI) Pipe
 
 This section guides you on testing the CI pipeline by commit changes to the CodeArts Repo to automatically trigger the CI pipeline.
 
-1. From your local machine, navigate to your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **red color background**, uncomment the line that marked as red color code.
+1. Navigate to the CodeArts Repo management console, open your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **red color background**, uncomment the line that marked as red color code.
 
     ```
     header {
@@ -127,28 +127,19 @@ This section guides you on testing the CI pipeline by commit changes to the Code
     }
 
     ```
-
-2. Execute the Git command below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
-
-    ```$ git add --all``` <br>
-    ```$ git commit -am "release red version``` <br>
-    ```$ git push```
-
     *<p align="center"> ![figure5.19.1](./images/5.19.1.png) </p>*
-    *<p align="center"> Figure 5.19.1: Execute Continuous Integration (CI) Pipeline</p>*
+    *<p align="center"> Figure 5.19.1: Modify source code on CodeArts Repo</p>*
 
     *<p align="center"> ![figure5.19.2](./images/5.19.2.png) </p>*
-    *<p align="center"> Figure 5.19.2: Execute Continuous Integration (CI) Pipeline</p>*
+    *<p align="center"> Figure 5.19.2: Modify source code on CodeArts Repo</p>*
 
-**Notes: If you having issues in commiting the changes to the CodeArts Repo from your local machine, move to the next step Step 3 instead. If no issue, then skip the last step Step 3 and proceed to the next section.**
-
-3. **[Optional]** If you having issue on commiting changes to CodeArts Repo from your local machine in Step 2,  modify the codes on Codearts Repo management console instead as below screenshot.
+2. Verify upon source code commit to the CodeArts Repo have trigger the CI pipeline to do the task.
 
     *<p align="center"> ![figure5.20.1](./images/5.20.1.png) </p>*
-    *<p align="center"> Figure 5.20.1: Modify source code on CodeArts Repo</p>*
+    *<p align="center"> Figure 5.20.1: Execute Continuous Integration (CI) Pipeline</p>*
 
     *<p align="center"> ![figure5.20.2](./images/5.20.2.png) </p>*
-    *<p align="center"> Figure 5.20.2: Modify source code on CodeArts Repo</p>*
+    *<p align="center"> Figure 5.20.2: Execute Continuous Integration (CI) Pipeline</p>*
 
 ### Verify the web application is successfully deployed to SIT environment
 
