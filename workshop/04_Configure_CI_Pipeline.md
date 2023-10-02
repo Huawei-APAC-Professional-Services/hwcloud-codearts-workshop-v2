@@ -134,11 +134,21 @@ This section guides you on testing the CI pipeline by commit changes to the Code
     ```$ git commit -am "release red version``` <br>
     ```$ git push```
 
-    *<p align="center"> ![figure5.19](./images/5.19.png) </p>*
-    *<p align="center"> Figure 5.19: Execute Continuous Integration (CI) Pipeline</p>*
+    *<p align="center"> ![figure5.19.1](./images/5.19.1.png) </p>*
+    *<p align="center"> Figure 5.19.1: Execute Continuous Integration (CI) Pipeline</p>*
 
-    *<p align="center"> ![figure5.20](./images/5.20.png) </p>*
-    *<p align="center"> Figure 5.20: Execute Continuous Integration (CI) Pipeline</p>*
+    *<p align="center"> ![figure5.19.2](./images/5.19.2.png) </p>*
+    *<p align="center"> Figure 5.19.2: Execute Continuous Integration (CI) Pipeline</p>*
+
+**Notes: If you having issues in commiting the changes to the CodeArts Repo from your local machine, move to the next step Step 3 instead. If no issue, then skip the last step Step 3 and proceed to the next section.**
+
+3. **[Optional]** If you having issue on commiting changes to CodeArts Repo from your local machine in Step 2,  modify the codes on Codearts Repo management console instead as below screenshot.
+
+    *<p align="center"> ![figure5.20.1](./images/5.20.1.png) </p>*
+    *<p align="center"> Figure 5.20.1: Modify source code on CodeArts Repo</p>*
+
+    *<p align="center"> ![figure5.20.2](./images/5.20.2.png) </p>*
+    *<p align="center"> Figure 5.20.2: Modify source code on CodeArts Repo</p>*
 
 ### Verify the web application is successfully deployed to SIT environment
 
