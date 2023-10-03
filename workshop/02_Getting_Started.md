@@ -32,6 +32,14 @@ This section guides you on configuring the SWR organization to store the contain
 
 2. Note down your SWR organization name for later use.
 
+### Clone repository to local machine for CCE Cluster provisioning using Terraform
+
+Use **git command** to clone a copy of repository on your local machine. <br>
+
+```git clone https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2.git``` <br>
+
+Ensure that you have all the necessary files on your local machine for later deployments.
+
 ### Set up the production and non-production Huawei Cloud Container Engine (CCE) Clusters
 
 This section guide you on provision the CCE cluster for System Integration Testing (SIT) and production environments using typical Infrastructure as Code (IaC) tool, **Terraform** to automate the resource provisioning.
