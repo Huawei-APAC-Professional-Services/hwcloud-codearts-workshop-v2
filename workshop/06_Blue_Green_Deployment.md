@@ -9,7 +9,7 @@ At this stage, you have completed the configuration on **Continuous Integration 
 
 In an existing SIT and production environments, you already have the history version of the web application **(red color webpage)** being deployed. To release a new version of web application with blue color webpage, you are require to trigger the build and deploy for SIT and production pipeline that you have configured earlier.
 
-1. From your local machine, navigate to your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **blue color background**, uncomment the line that marked as blue color code.
+1. Navigate to the CodeArts Repo management console, open your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **blue color background**, uncomment the line that marked as blue color code.
 
     ```
     header {
@@ -22,15 +22,11 @@ In an existing SIT and production environments, you already have the history ver
     }
 
     ```
+    *<p align="center"> ![figure7.1.1](./images/7.1.1.png) </p>*
+    *<p align="center"> Figure 7.1.1: Modify code and commit changes</p>*
 
-2. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
-
-    ```$ git add --all``` <br>
-    ```$ git commit -am "release blue version``` <br>
-    ```$ git push```
-
-    *<p align="center"> ![figure7.1](./images/7.1.png) </p>*
-    *<p align="center"> Figure 7.1: Trigger SIT pipeline upon source code commit</p>*
+    *<p align="center"> ![figure7.1.2](./images/7.1.2.png) </p>*
+    *<p align="center"> Figure 7.1.2: Trigger SIT pipeline upon source code commit</p>*
 
 3. Verify the web application had changed to **blue color background** by accessing the **EIP address of load balancer** being bound to the **SIT cluster**.
 
@@ -91,7 +87,8 @@ This section guides you on configuring the second CodeArts pipeline for another 
 
 3. At this stage, you have completed the setup of a new pipeline for the green deployment. Now, you will need to **push the green deployment to the production environment** to simulate the blue-green deployment strategy. Follow the instruction below to achieve the goal.
 
-    a. Firstly, you are require to modify the source code to release a new version of **web application with green color background** and trigger the SIT pipeline. From your local machine, navigate to your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **green color background**, uncomment the line that marked as green color code. <br>
+    a. Firstly, you are require to modify the source code to release a new version of **web application with green color background** and trigger the SIT pipeline. Navigate to the CodeArts Repo management console, open your source code directory and locate the ```./pipeline-deployment/project/index.php``` file. Modify the source code to deploy a web application with **green color background**, uncomment the line that marked as green color code. <br>
+
     ```
     header {
         /* Red */
@@ -106,14 +103,11 @@ This section guides you on configuring the second CodeArts pipeline for another 
     }
 
     ```
-    b. Execute the **Git command** below to commit changes to the CodeArts Repo. Enter the Git credentials as prompted, the username and password should be the one you have obtained in [Step 3b](https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/02_Getting_Started.md).
+    *<p align="center"> ![figure7.12.1](./images/7.12.1.png) </p>*
+    *<p align="center"> Figure 7.12.1: Modify source code and commit changes</p>*
 
-    ```$ git add --all``` <br>
-    ```$ git commit -am "release green version``` <br>
-    ```$ git push```
-
-    *<p align="center"> ![figure7.12](./images/7.12.png) </p>*
-    *<p align="center"> Figure 7.12: Trigger SIT pipeline upon source code commit</p>*
+    *<p align="center"> ![figure7.12.2](./images/7.12.2.png) </p>*
+    *<p align="center"> Figure 7.12.2: Trigger SIT pipeline upon source code commit</p>*
 
     *<p align="center"> ![figure7.13](./images/7.13.png) </p>*
     *<p align="center"> Figure 7.13: SIT pipeline run successfully</p>*

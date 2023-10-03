@@ -21,33 +21,6 @@ This section will guide you step by step to set up the project and repository in
     *<p align="center"> ![figure3.3](./images/3.3.png) </p>*
     *<p align="center"> Figure 3.3: Import Source Code Template into CodeArts Repo </p>*
 
-3. Now you have a copy of source code in your CodeArts Repo. In order to facilitate the **code editing process** and **source code commit changes** to trigger the pipeline process in the later exercise, you are require to clone the repository into your local machine. <br>
-(**Notes**: Ensure that you have completed the prerequisites with **Git** installed on your local machine) <br>
-
-   a. Clone the repository to your local machine by selecting **clone with HTTPS** option with the use of git clone command as below. Replace the code repository URL to your own repository URL.
-   \
-    ```$ git clone https://replace-it-with-your-code-repo-url.git```
-    *<p align="center"> ![figure3.4](./images/3.4.png) </p>*
-    *<p align="center"> Figure 3.4: Clone the CodeArts Repository </p>*
-
-   b. During the first time of repository cloning, you are require to enter the **username** and **HTTPS Password**, follow the instruction below to obtain the credentials in order to complete the clone process. The HTTPS password should be the password that used to login to the Huawei Cloud account. <br>
-   \
-   *<p align="center"> ![figure3.5](./images/3.5.png) </p>*
-   *<p align="center"> Figure 3.5: Clone the CodeArts Repository </p>*
-
-   c. Navigate to the cloned directory and modify the content of the cloned files. Commit changes to the CodeArts Repo to **verify that you can perform code commit from your local machine**.
-
-   ```$ touch abc.txt``` <br>
-   ```$ git add --all``` <br>
-   ```$ git commit -am "add test file``` <br>
-   ```$ git push``` <br>
-   Enter the credentials as prompted, the username and password is the one that you obtain in previous **Step B**. If you are using Visual Studio Code as your code editor, the prompt window will located on the search bar as the below screenshot.
-   
-   *<p align="center"> ![figure3.5.1](./images/3.5.1.png) </p>*
-   *<p align="center"> Figure 3.5.1: Enter Git Credentials </p>*
-
-   You are required to key in the Git credentials for every code commit.
-
 ### Create Software Repository Warehouse (SWR) Organization
 
 This section guides you on configuring the SWR organization to store the container images created from CodeArts service throughout the development lifecycle.
@@ -95,7 +68,7 @@ This section guide you on provision the CCE cluster for System Integration Testi
             $Env:HW_REGION_NAME="ap-southeast-3"
             ```
 
-3. To provision the CCE cluster in **SIT environment**, navigate to the cloned repository with directory ```../cce-env/sit-demo```. Execute the below commands to provision the resources.
+3. To provision the CCE cluster in **SIT environment**, navigate to the cloned repository in your with directory ```../cce-env/sit-demo```. Execute the below commands to provision the resources.
 
     **```$ terraform fmt```**: ensure the format is consistent within the codebase <br>
     **```$ terraform init```**: initialize the local environments, install the plugins and modules <br>
