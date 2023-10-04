@@ -48,7 +48,7 @@ Before going through the exercise in this lab, you should have the below tools a
 Please follow the sequence below if you wish to perform the hands-on learning with CodeArts Service on Huawei Cloud. Expand the flowchart and click on every single element to perform the labs.
 
 ```mermaid
-flowchart TB
+flowchart TD
     00_Fundamental_Knowledge[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/00_Fundamental_Knowledge.md'>00_Fundamental_Knowledge</a>]
 
     00_Fundamental_Knowledge --> 01_Solution_Overview[<a href='https://github.com/Huawei-APAC-Professional-Services/hwcloud-codearts-workshop-v2/blob/main/workshop/01_Solution_Overview.md'>01_Solution_Overview</a>]
