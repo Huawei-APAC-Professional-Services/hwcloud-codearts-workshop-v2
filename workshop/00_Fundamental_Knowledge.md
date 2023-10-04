@@ -19,6 +19,3 @@ In terms of application development and deployment in cloud environment, Huawei 
 * [**CodeArts Pipeline**](https://support.huaweicloud.com/intl/en-us/productdesc-pipeline/pipeline_pdtd_00001.html): Provides visualized CI and CD pipelines that can be orchestrated and allows you to customize the pipeline tasks based on business requirements.
 * [**CodeArts Artifacts**](https://support.huaweicloud.com/intl/en-us/productdesc-cloudartifact/cloudartifact_07_0001.html): Is a feature that helps to manage the software package that is generated during the software development. Generally provising two types of repositories which is release repo and self-hosted repo.
 * [**CodeArts TestPlan**](https://support.huaweicloud.com/intl/en-us/productdesc-testman/devcloud_pdtd_50001.html): Is test management platform that covers the entire process of test plan, test design, test cases, test execution and test evaluation.
-
-
-
