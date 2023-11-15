@@ -14,7 +14,7 @@
         
         header {
             /* Red */
-            /* background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967)); */
+            background: linear-gradient(135deg, rgba(255, 176, 176, 0.8), rgba(255, 0, 0, 0.967));
 
             /* Blue */
             /* background: linear-gradient(135deg, rgba(192, 218, 236, 0.8), rgba(0, 153, 255, 0.967)); */
