@@ -118,7 +118,7 @@ You are require to do a system validation once you have completed the execution 
     * **Load Balancer**: ```Auto Create Shared Load Balancer``` <br>
     * **Port**: ```80```
     
-    *<p align="center"> ![figure6.15](./images/6.15.png) </p>*
+    *<p align="center"> ![figure6.15A](./images/6.15A.png) </p>*
     *<p align="center"> Figure 6.15: Configure load balancer service</p>*
     *<p align="center"> ![figure6.16](./images/6.16.png) </p>*
     *<p align="center"> Figure 6.16: Configure load balancer service</p>*
